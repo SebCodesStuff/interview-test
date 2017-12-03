@@ -10,6 +10,9 @@ class Home extends PureComponent {
     return (
       <Page>
         <div className="home-page">
+            <video className="bgvid" autoPlay loop>
+              <source src="video/fashion.mp4" type="video/mp4"/>
+            </video>
           <h2 className="title">Welcome to our humble Shop</h2>
           <Button
             onClick={() => {
